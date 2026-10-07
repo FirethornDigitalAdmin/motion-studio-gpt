@@ -1,0 +1,25 @@
+{
+  "format": "louis-cutout-clip-v1",
+  "id": "awkward",
+  "label": "Awkward heavy carry",
+  "duration": 4,
+  "loop": true,
+  "group": "Extended",
+  "fps": 24,
+  "view": "three-quarter-right",
+  "frameCount": 96,
+  "rootMotion": {
+    "mode": "in-place",
+    "pixelsPerSecond": 0,
+    "stridePixels": 0
+  },
+  "channels": [
+    "posture",
+    "upper-body",
+    "hands-props",
+    "expression-cues"
+  ],
+  "events": [],
+  "native": "../native/awkward.motion/project.json",
+  "generator": "../rig/runtime.mjs#sample"
+}

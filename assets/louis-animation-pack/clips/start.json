@@ -1,0 +1,24 @@
+{
+  "format": "louis-cutout-clip-v1",
+  "id": "start",
+  "label": "Start walking",
+  "duration": 1.5,
+  "loop": false,
+  "group": "Locomotion",
+  "fps": 24,
+  "view": "three-quarter-right",
+  "frameCount": 36,
+  "rootMotion": {
+    "mode": "in-place",
+    "pixelsPerSecond": 0,
+    "stridePixels": 0
+  },
+  "channels": [
+    "posture",
+    "locomotion",
+    "arm-swing"
+  ],
+  "events": [],
+  "native": "../native/start.motion/project.json",
+  "generator": "../rig/runtime.mjs#sample"
+}

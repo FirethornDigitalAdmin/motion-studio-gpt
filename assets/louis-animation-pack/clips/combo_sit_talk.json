@@ -1,0 +1,25 @@
+{
+  "format": "louis-cutout-clip-v1",
+  "id": "combo_sit_talk",
+  "label": "4 · Seated / speech / gesture",
+  "duration": 4,
+  "loop": true,
+  "group": "Combinations",
+  "fps": 24,
+  "view": "three-quarter-right",
+  "frameCount": 96,
+  "rootMotion": {
+    "mode": "in-place",
+    "pixelsPerSecond": 0,
+    "stridePixels": 0
+  },
+  "channels": [
+    "posture",
+    "upper-body",
+    "hands-props",
+    "expression-cues"
+  ],
+  "events": [],
+  "native": "../native/combo_sit_talk.motion/project.json",
+  "generator": "../rig/runtime.mjs#sample"
+}

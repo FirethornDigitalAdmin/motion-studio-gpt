@@ -1,0 +1,26 @@
+{
+  "format": "louis-cutout-clip-v1",
+  "id": "backward",
+  "label": "Walk backwards",
+  "duration": 1.25,
+  "loop": true,
+  "group": "Locomotion",
+  "speed": -110,
+  "stride": 137.5,
+  "fps": 24,
+  "view": "three-quarter-right",
+  "frameCount": 30,
+  "rootMotion": {
+    "mode": "in-place",
+    "pixelsPerSecond": -110,
+    "stridePixels": 137.5
+  },
+  "channels": [
+    "posture",
+    "locomotion",
+    "arm-swing"
+  ],
+  "events": [],
+  "native": "../native/backward.motion/project.json",
+  "generator": "../rig/runtime.mjs#sample"
+}

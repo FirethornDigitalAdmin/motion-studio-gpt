@@ -1,0 +1,32 @@
+[
+  {
+    "name": "portal-whoosh.mp3",
+    "id": "eNiIblMx9yyBoPADHgPy",
+    "status": "completed",
+    "model_id": "eleven_text_to_sound_v2",
+    "modality": "audio",
+    "prompt": "A short cartoon sci-fi portal bursts open with a swirling airy electric whoosh, builds to a brief suction gust, then clicks shut. Dry clean sound effect, roughly three seconds, no voices, no music, no",
+    "duration_secs": 2,
+    "created_at_unix_ms": 1791307049998,
+    "price": {
+      "credits": 16.665,
+      "price_cents": 0.303,
+      "cost_fiat_currency": "usd"
+    }
+  },
+  {
+    "name": "front-door-knock.mp3",
+    "id": "AHdlB0nqtZRkBVvAyyis",
+    "status": "completed",
+    "model_id": "eleven_text_to_sound_v2",
+    "modality": "audio",
+    "prompt": "Three ordinary firm knocks on a British wooden front door. A brief realistic knock-knock-knock, under two seconds, dry close microphone, no voices, no music, no room ambience.",
+    "duration_secs": 1,
+    "created_at_unix_ms": 1791307050973,
+    "price": {
+      "credits": 16.665,
+      "price_cents": 0.303,
+      "cost_fiat_currency": "usd"
+    }
+  }
+]

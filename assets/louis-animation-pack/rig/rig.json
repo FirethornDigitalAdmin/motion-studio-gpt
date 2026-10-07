@@ -1,0 +1,129 @@
+{
+  "format": "louis-cutout-rig-v1",
+  "nativeFormat": false,
+  "runtime": "runtime.mjs",
+  "units": "pixels",
+  "canvas": {
+    "width": 1536,
+    "height": 1408
+  },
+  "worldRoot": {
+    "x": 768,
+    "y": 1227
+  },
+  "groundY": 1227,
+  "fps": 24,
+  "view": "three-quarter-right",
+  "referenceOnlyViews": [
+    "front",
+    "profile-right",
+    "rear"
+  ],
+  "anatomicalRight": "nearer arm, normally on screen-left",
+  "parents": {
+    "pelvis": "worldRoot",
+    "torso": "pelvis",
+    "chestControl": "torso",
+    "neck": "chestControl",
+    "head": "neck",
+    "upper_arm_R": "chestControl",
+    "forearm_R": "upper_arm_R",
+    "hand_R": "forearm_R",
+    "upper_arm_L": "chestControl",
+    "forearm_L": "upper_arm_L",
+    "hand_L": "forearm_L",
+    "thigh_R": "pelvis",
+    "shin_R": "thigh_R",
+    "foot_R": "shin_R",
+    "thigh_L": "pelvis",
+    "shin_L": "thigh_L",
+    "foot_L": "shin_L",
+    "eye_R": "head",
+    "eye_L": "head",
+    "brow_R": "head",
+    "brow_L": "head",
+    "mouth": "head",
+    "prop": "hand_R"
+  },
+  "boneLengths": {
+    "upperArm": 135,
+    "forearm": 125,
+    "thigh": 200,
+    "shin": 202
+  },
+  "constraints": {
+    "limbs": "two-bone analytic IK; targets outside reach are clamped and reported",
+    "pupils": "ellipse-contained gaze",
+    "seat": "fixed chair at y=1023 in seated clips",
+    "twoHandProp": "box/book located between solved hands, rigid orientation",
+    "reset": "sample('rest',0)"
+  },
+  "deformation": "Rigid cutout segments with hidden overlap; no mesh skin weights. Chest/torso are one drawing; hair, ears and beard remain in head drawing.",
+  "attachments": [
+    "world",
+    "pelvis",
+    "head",
+    "hand_R",
+    "hand_L",
+    "foot_R",
+    "foot_L",
+    "seat",
+    "prop"
+  ],
+  "channelOwnership": [
+    {
+      "layer": "locomotion/posture",
+      "owns": [
+        "world motion",
+        "pelvis",
+        "torso",
+        "legs",
+        "feet"
+      ],
+      "priority": 10
+    },
+    {
+      "layer": "upper body",
+      "owns": [
+        "arms",
+        "head action tilt"
+      ],
+      "priority": 20
+    },
+    {
+      "layer": "hands/props",
+      "owns": [
+        "hand drawing",
+        "prop transform",
+        "attach/release"
+      ],
+      "priority": 30
+    },
+    {
+      "layer": "expression",
+      "owns": [
+        "brow angles",
+        "eye openness",
+        "head expression tilt",
+        "mouth only without speech"
+      ],
+      "priority": 40
+    },
+    {
+      "layer": "gaze/blink",
+      "owns": [
+        "pupil offsets",
+        "eyelid/blink override"
+      ],
+      "priority": 50
+    },
+    {
+      "layer": "speech",
+      "owns": [
+        "mouth drawing"
+      ],
+      "priority": 60
+    }
+  ],
+  "overridePolicy": "Upper-body carrying replaces arm swing. Mouth override > timed speech > expression mouth. Wink/blink > expression eye openness. Locomotion never writes mouth/prop channels. Prop controls can deliberately replace a clip default. Anatomical left hands are separately saved symmetric reflections; whole character is never mirrored."
+}

@@ -1,0 +1,312 @@
+{
+  "torso": {
+    "file": "production/parts/torso.svg",
+    "width": 244,
+    "height": 290,
+    "design": "louis-production-v2"
+  },
+  "pelvis": {
+    "file": "production/parts/pelvis.svg",
+    "width": 184,
+    "height": 95,
+    "design": "louis-production-v2"
+  },
+  "neck": {
+    "file": "production/parts/neck.svg",
+    "width": 66,
+    "height": 74,
+    "design": "louis-production-v2"
+  },
+  "upper_arm_R": {
+    "file": "production/parts/upper_arm_R.svg",
+    "width": 76,
+    "height": 170,
+    "design": "louis-production-v2"
+  },
+  "forearm_R": {
+    "file": "production/parts/forearm_R.svg",
+    "width": 54,
+    "height": 157,
+    "design": "louis-production-v2"
+  },
+  "thigh_R": {
+    "file": "production/parts/thigh_R.svg",
+    "width": 91,
+    "height": 250,
+    "design": "louis-production-v2"
+  },
+  "shin_R": {
+    "file": "production/parts/shin_R.svg",
+    "width": 67,
+    "height": 252,
+    "design": "louis-production-v2"
+  },
+  "foot_R": {
+    "file": "production/parts/foot_R.svg",
+    "width": 116,
+    "height": 67,
+    "design": "louis-production-v2"
+  },
+  "hand_R_typing": {
+    "file": "production/parts/hand_R_typing.svg",
+    "width": 52,
+    "height": 44,
+    "design": "louis-production-v2"
+  },
+  "hand_R_grasp": {
+    "file": "production/parts/hand_R_grasp.svg",
+    "width": 51,
+    "height": 76,
+    "design": "louis-production-v2"
+  },
+  "hand_R_handle": {
+    "file": "production/parts/hand_R_handle.svg",
+    "width": 51,
+    "height": 76,
+    "design": "louis-production-v2"
+  },
+  "hand_R_relaxed": {
+    "file": "production/parts/hand_R_relaxed.svg",
+    "width": 51,
+    "height": 76,
+    "design": "louis-production-v2"
+  },
+  "hand_R_point": {
+    "file": "production/parts/hand_R_point.svg",
+    "design": "louis-production-v2"
+  },
+  "hand_R_pinch": {
+    "file": "production/parts/hand_R_pinch.svg",
+    "design": "louis-production-v2"
+  },
+  "hand_R_fist": {
+    "file": "production/parts/hand_R_fist.svg",
+    "design": "louis-production-v2"
+  },
+  "hand_R_open": {
+    "file": "production/parts/hand_R_open.svg",
+    "design": "louis-production-v2"
+  },
+  "hand_R_wave": {
+    "file": "production/parts/hand_R_wave.svg",
+    "design": "louis-production-v2"
+  },
+  "hand_R_carry": {
+    "file": "production/parts/hand_R_carry.svg",
+    "design": "louis-production-v2"
+  },
+  "hand_R_support": {
+    "file": "production/parts/hand_R_support.svg",
+    "design": "louis-production-v2"
+  },
+  "upper_arm_L": {
+    "file": "production/parts/upper_arm_L.svg",
+    "width": 76,
+    "height": 170,
+    "design": "louis-production-v2"
+  },
+  "forearm_L": {
+    "file": "production/parts/forearm_L.svg",
+    "width": 54,
+    "height": 157,
+    "design": "louis-production-v2"
+  },
+  "thigh_L": {
+    "file": "production/parts/thigh_L.svg",
+    "width": 91,
+    "height": 250,
+    "design": "louis-production-v2"
+  },
+  "shin_L": {
+    "file": "production/parts/shin_L.svg",
+    "width": 67,
+    "height": 252,
+    "design": "louis-production-v2"
+  },
+  "foot_L": {
+    "file": "production/parts/foot_L.svg",
+    "width": 116,
+    "height": 67,
+    "design": "louis-production-v2"
+  },
+  "hand_L_typing": {
+    "file": "production/parts/hand_L_typing.svg",
+    "width": 52,
+    "height": 44,
+    "design": "louis-production-v2"
+  },
+  "hand_L_grasp": {
+    "file": "production/parts/hand_L_grasp.svg",
+    "width": 51,
+    "height": 76,
+    "design": "louis-production-v2"
+  },
+  "hand_L_handle": {
+    "file": "production/parts/hand_L_handle.svg",
+    "width": 51,
+    "height": 76,
+    "design": "louis-production-v2"
+  },
+  "hand_L_relaxed": {
+    "file": "production/parts/hand_L_relaxed.svg",
+    "width": 51,
+    "height": 76,
+    "design": "louis-production-v2"
+  },
+  "hand_L_point": {
+    "file": "production/parts/hand_L_point.svg",
+    "design": "louis-production-v2"
+  },
+  "hand_L_pinch": {
+    "file": "production/parts/hand_L_pinch.svg",
+    "design": "louis-production-v2"
+  },
+  "hand_L_fist": {
+    "file": "production/parts/hand_L_fist.svg",
+    "design": "louis-production-v2"
+  },
+  "hand_L_open": {
+    "file": "production/parts/hand_L_open.svg",
+    "design": "louis-production-v2"
+  },
+  "hand_L_wave": {
+    "file": "production/parts/hand_L_wave.svg",
+    "design": "louis-production-v2"
+  },
+  "hand_L_carry": {
+    "file": "production/parts/hand_L_carry.svg",
+    "design": "louis-production-v2"
+  },
+  "hand_L_support": {
+    "file": "production/parts/hand_L_support.svg",
+    "design": "louis-production-v2"
+  },
+  "brow": {
+    "file": "production/parts/brow.svg",
+    "width": 53,
+    "height": 14,
+    "design": "louis-production-v2"
+  },
+  "eye_R": {
+    "file": "production/parts/eye_R.svg",
+    "width": 60,
+    "height": 60,
+    "design": "louis-production-v2"
+  },
+  "eye_L": {
+    "file": "production/parts/eye_L.svg",
+    "width": 49,
+    "height": 49,
+    "design": "louis-production-v2"
+  },
+  "mouth_sil": {
+    "file": "production/parts/mouth_sil.svg",
+    "width": 62,
+    "height": 12,
+    "design": "louis-production-v2"
+  },
+  "mouth_PP": {
+    "file": "production/parts/mouth_PP.svg",
+    "width": 62,
+    "height": 12,
+    "design": "louis-production-v2"
+  },
+  "mouth_FF": {
+    "file": "production/parts/mouth_FF.svg",
+    "width": 62,
+    "height": 23,
+    "design": "louis-production-v2"
+  },
+  "mouth_TH": {
+    "file": "production/parts/mouth_TH.svg",
+    "width": 62,
+    "height": 23,
+    "design": "louis-production-v2"
+  },
+  "mouth_DD": {
+    "file": "production/parts/mouth_DD.svg",
+    "width": 62,
+    "height": 23,
+    "design": "louis-production-v2"
+  },
+  "mouth_kk": {
+    "file": "production/parts/mouth_kk.svg",
+    "width": 62,
+    "height": 23,
+    "design": "louis-production-v2"
+  },
+  "mouth_CH": {
+    "file": "production/parts/mouth_CH.svg",
+    "width": 62,
+    "height": 12,
+    "design": "louis-production-v2"
+  },
+  "mouth_SS": {
+    "file": "production/parts/mouth_SS.svg",
+    "width": 62,
+    "height": 12,
+    "design": "louis-production-v2"
+  },
+  "mouth_nn": {
+    "file": "production/parts/mouth_nn.svg",
+    "width": 62,
+    "height": 23,
+    "design": "louis-production-v2"
+  },
+  "mouth_RR": {
+    "file": "production/parts/mouth_RR.svg",
+    "width": 62,
+    "height": 23,
+    "design": "louis-production-v2"
+  },
+  "mouth_aa": {
+    "file": "production/parts/mouth_aa.svg",
+    "width": 62,
+    "height": 34,
+    "design": "louis-production-v2"
+  },
+  "mouth_E": {
+    "file": "production/parts/mouth_E.svg",
+    "width": 62,
+    "height": 23,
+    "design": "louis-production-v2"
+  },
+  "mouth_I": {
+    "file": "production/parts/mouth_I.svg",
+    "width": 62,
+    "height": 23,
+    "design": "louis-production-v2"
+  },
+  "mouth_O": {
+    "file": "production/parts/mouth_O.svg",
+    "width": 35,
+    "height": 34,
+    "design": "louis-production-v2"
+  },
+  "mouth_U": {
+    "file": "production/parts/mouth_U.svg",
+    "width": 35,
+    "height": 23,
+    "design": "louis-production-v2"
+  },
+  "prop_cup": {
+    "file": "production/parts/prop_cup.svg",
+    "width": 66,
+    "height": 72,
+    "design": "louis-production-v2"
+  },
+  "head": {
+    "file": "production/parts/head-v2.png",
+    "crop": {
+      "x": 5,
+      "y": 21,
+      "width": 1013,
+      "height": 1361
+    },
+    "design": "louis-production-v2"
+  },
+  "hand_L_kettle": {
+    "file": "production/parts/hand_L_kettle.svg",
+    "design": "louis-production-v2"
+  }
+}

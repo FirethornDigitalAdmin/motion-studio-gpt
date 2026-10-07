@@ -1,0 +1,17 @@
+import {clips,expressions,visemes,sample,draw,loadImages,W,H} from '../rig/runtime.mjs';
+const $=id=>document.getElementById(id),images=await loadImages('../');
+const coverage=await (await fetch('../clips/coverage.json')).json(),studies=new Set(coverage.clips.filter(c=>c.status==='exported-motion-study').map(c=>c.id));
+for(const group of [...new Set(clips.map(c=>c.group))]){const g=document.createElement('optgroup');g.label=group;for(const c of clips.filter(c=>c.group===group))g.append(new Option(c.label+(studies.has(c.id)&&!c.label.toLowerCase().includes('study')?' · study':''),c.id));$('clip').append(g);}$('clip').value='idle';
+$('expression').append(new Option('Clip default','auto'));for(const n of Object.keys(expressions))$('expression').append(new Option(n,n));
+$('mouth').append(new Option('Auto / expression or speech','auto'));for(const n of visemes)$('mouth').append(new Option(n,n));
+for(const n of ['relaxed','open','fist','point','wave','pinch','grasp','handle','support','carry'])$('hand').append(new Option(n,n));
+let t=0,playing=true,last=performance.now();const canvas=$('canvas'),ctx=canvas.getContext('2d');
+const controls=()=>({expression:$('expression').value==='auto'?undefined:$('expression').value,mouth:$('mouth').value,prop:$('prop').value,hand:$('hand').value,blink:$('blink').value,gazeX:+$('gazeX').value,gazeY:+$('gazeY').value,speech:$('speech').checked,rootMotion:$('rootMotion').checked,action:$('action').value||undefined});
+function render(){const c=clips.find(c=>c.id===$('clip').value);ctx.clearRect(0,0,W,H);const pose=sample(c.id,t,controls());draw(ctx,pose,images,{floor:$('floor').checked,overlays:$('overlays').checked});$('scrub').max=c.duration;$('scrub').value=t;$('time').value=`${t.toFixed(2)} / ${c.duration.toFixed(2)} s`;$('details').textContent=`${c.loop?'Loop':'One shot'} · ${c.speed?c.speed+' px/s · ':''}${pose.expression} / ${pose.mouth} · Prop: ${pose.prop} (${pose.propState})`;window.__characterPose=pose;}
+$('play').onclick=()=>{playing=!playing;$('play').textContent=playing?'Pause':'Play';};
+function step(d){playing=false;$('play').textContent='Play';const c=clips.find(c=>c.id===$('clip').value);t=Math.max(0,Math.min(c.duration-1/24,t+d/24));render();}
+$('prev').onclick=()=>step(-1);$('next').onclick=()=>step(1);$('reset').onclick=()=>{playing=false;$('play').textContent='Play';t=0;$('clip').value='rest';$('action').value='';$('expression').value='auto';$('mouth').value='auto';$('prop').value='none';$('hand').value='auto';$('blink').value='auto';$('gazeX').value=$('gazeY').value='0';$('speech').checked=false;$('rootMotion').checked=false;render();};
+$('scrub').oninput=()=>{playing=false;$('play').textContent='Play';t=+$('scrub').value;render();};$('clip').onchange=()=>{t=0;render();};
+$('background').onchange=()=>{canvas.style.backgroundImage=$('background').value==='checker'?'':'none';canvas.style.backgroundColor=$('background').value==='dark'?'#192329':$('background').value==='light'?'#f8faf6':'#dadfdf';};
+for(const n of ['expression','mouth','prop','hand','blink','gazeX','gazeY','speech','action','overlays','floor','rootMotion'])$(n).addEventListener('input',render);
+function tick(now){const c=clips.find(c=>c.id===$('clip').value);if(playing){t+=(now-last)/1000*(+$('speed').value);if(t>=c.duration){if(c.loop)t%=c.duration;else{t=c.duration-1/24;playing=false;$('play').textContent='Play';}}}last=now;render();requestAnimationFrame(tick);}window.__character={sample,draw,images,clips,render};render();requestAnimationFrame(tick);

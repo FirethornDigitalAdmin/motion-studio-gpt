@@ -1,0 +1,170 @@
+[
+  {
+    "i": 1,
+    "actor": "Louis",
+    "prompt": "I've taken the afternoon off. Thought I'd do something reckless. Go outside.",
+    "duration": 4.504671201814059,
+    "id": "H71ic6p2kqqSxyBeCL3Z",
+    "voice": {
+      "voice_id": "u7lytyl6B5TvrqvPt70j",
+      "name": "Louis Voice 1"
+    },
+    "model": "eleven_multilingual_v2",
+    "file": "assets/northern-dev/voices/afternoon-off/01-louis.mp3",
+    "start": 1
+  },
+  {
+    "i": 2,
+    "actor": "Patch",
+    "prompt": "Good news, Lewis. I've found a universe where Britain is warm, affordable, and everyone's happy.",
+    "duration": 6.640907029478458,
+    "id": "TsK88u8PMyxTCdp8DS2w",
+    "voice": {
+      "voice_id": "pFZP5JQG7iQjIQuC4Bku",
+      "name": "Lily - Velvety Actress"
+    },
+    "model": "eleven_multilingual_v2",
+    "file": "assets/northern-dev/voices/afternoon-off/02-patch.mp3",
+    "start": 7.2
+  },
+  {
+    "i": 3,
+    "actor": "Louis",
+    "prompt": "Right. What's wrong with it?",
+    "duration": 1.5789569160997732,
+    "id": "n1RRkxRF9jiFQxzCo6vW",
+    "voice": {
+      "voice_id": "u7lytyl6B5TvrqvPt70j",
+      "name": "Louis Voice 1"
+    },
+    "model": "eleven_multilingual_v2",
+    "file": "assets/northern-dev/voices/afternoon-off/03-louis.mp3",
+    "start": 14.65
+  },
+  {
+    "i": 4,
+    "actor": "Patch",
+    "prompt": "Nothing. Sunshine, cheap houses, and a functioning railway.",
+    "duration": 3.7151927437641725,
+    "id": "K9l4CwVd9M20hFLnfX5q",
+    "voice": {
+      "voice_id": "pFZP5JQG7iQjIQuC4Bku",
+      "name": "Lily - Velvety Actress"
+    },
+    "model": "eleven_multilingual_v2",
+    "file": "assets/northern-dev/voices/afternoon-off/04-patch.mp3",
+    "start": 17.1
+  },
+  {
+    "i": 5,
+    "actor": "Louis",
+    "prompt": "Sounds dreadful. What do they complain about?",
+    "duration": 2.414875283446712,
+    "id": "UDi82zipDe6t4SLh6fRh",
+    "voice": {
+      "voice_id": "u7lytyl6B5TvrqvPt70j",
+      "name": "Louis Voice 1"
+    },
+    "model": "eleven_multilingual_v2",
+    "file": "assets/northern-dev/voices/afternoon-off/05-louis.mp3",
+    "start": 21.6
+  },
+  {
+    "i": 6,
+    "actor": "Patch",
+    "prompt": "We should leave now. This universe collapses in sixty seconds.",
+    "duration": 3.900952380952381,
+    "id": "LUU2AmTRLSBusc6EgvlK",
+    "voice": {
+      "voice_id": "pFZP5JQG7iQjIQuC4Bku",
+      "name": "Lily - Velvety Actress"
+    },
+    "model": "eleven_multilingual_v2",
+    "file": "assets/northern-dev/voices/afternoon-off/06-patch.mp3",
+    "start": 28.2
+  },
+  {
+    "i": 7,
+    "actor": "Louis",
+    "prompt": "Sixty seconds? Lovely. Plenty of time to put the bins out.",
+    "duration": 3.4829931972789114,
+    "id": "bFpTimikT8SOWQhAaETc",
+    "voice": {
+      "voice_id": "u7lytyl6B5TvrqvPt70j",
+      "name": "Louis Voice 1"
+    },
+    "model": "eleven_multilingual_v2",
+    "file": "assets/northern-dev/voices/afternoon-off/07-louis.mp3",
+    "start": 33
+  },
+  {
+    "i": 8,
+    "actor": "Patch",
+    "prompt": "Lewis, that is a tear in the fabric of existence.",
+    "duration": 3.3436734693877552,
+    "id": "prYKPoBiVU6ovsy6UgBj",
+    "voice": {
+      "voice_id": "pFZP5JQG7iQjIQuC4Bku",
+      "name": "Lily - Velvety Actress"
+    },
+    "model": "eleven_multilingual_v2",
+    "file": "assets/northern-dev/voices/afternoon-off/08-patch.mp3",
+    "start": 37.3
+  },
+  {
+    "i": 9,
+    "actor": "Louis",
+    "prompt": "Yes. And it's letting the heat out.",
+    "duration": 2.089795918367347,
+    "id": "J7345fA9L60YrSMhxgz4",
+    "voice": {
+      "voice_id": "u7lytyl6B5TvrqvPt70j",
+      "name": "Louis Voice 1"
+    },
+    "model": "eleven_multilingual_v2",
+    "file": "assets/northern-dev/voices/afternoon-off/09-louis.mp3",
+    "start": 41.3
+  },
+  {
+    "i": 10,
+    "actor": "Patch",
+    "prompt": "Fine. I'll save the universe myself.",
+    "duration": 2.414875283446712,
+    "id": "Hbwrkkm4MYj2254089Zj",
+    "voice": {
+      "voice_id": "pFZP5JQG7iQjIQuC4Bku",
+      "name": "Lily - Velvety Actress"
+    },
+    "model": "eleven_multilingual_v2",
+    "file": "assets/northern-dev/voices/afternoon-off/10-patch.mp3",
+    "start": 44.25
+  },
+  {
+    "i": 11,
+    "actor": "Louis",
+    "prompt": "Mind the carpet. I've only just hoovered.",
+    "duration": 2.136235827664399,
+    "id": "1Gk4ja0O5Q0KV6gxUoTw",
+    "voice": {
+      "voice_id": "u7lytyl6B5TvrqvPt70j",
+      "name": "Louis Voice 1"
+    },
+    "model": "eleven_multilingual_v2",
+    "file": "assets/northern-dev/voices/afternoon-off/11-louis.mp3",
+    "start": 47.4
+  },
+  {
+    "i": 12,
+    "actor": "Louis",
+    "prompt": "Still. Could be worse. Someone might knock.",
+    "duration": 2.2755555555555556,
+    "id": "H7HDEsa9G9SmQlmG6mge",
+    "voice": {
+      "voice_id": "u7lytyl6B5TvrqvPt70j",
+      "name": "Louis Voice 1"
+    },
+    "model": "eleven_multilingual_v2",
+    "file": "assets/northern-dev/voices/afternoon-off/12-louis.mp3",
+    "start": 53
+  }
+]

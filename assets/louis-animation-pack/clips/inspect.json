@@ -1,0 +1,25 @@
+{
+  "format": "louis-cutout-clip-v1",
+  "id": "inspect",
+  "label": "Inspect object",
+  "duration": 3,
+  "loop": false,
+  "group": "Interaction",
+  "fps": 24,
+  "view": "three-quarter-right",
+  "frameCount": 72,
+  "rootMotion": {
+    "mode": "in-place",
+    "pixelsPerSecond": 0,
+    "stridePixels": 0
+  },
+  "channels": [
+    "posture",
+    "upper-body",
+    "hands-props",
+    "expression-cues"
+  ],
+  "events": [],
+  "native": "../native/inspect.motion/project.json",
+  "generator": "../rig/runtime.mjs#sample"
+}

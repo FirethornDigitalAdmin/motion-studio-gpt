@@ -1,0 +1,36 @@
+{
+  "voice_id": "u7lytyl6B5TvrqvPt70j",
+  "model": "eleven_v3",
+  "takes": [
+    {
+      "line": "01",
+      "id": "3L6yNXAYS0N6QreNheN4",
+      "prompt": "[confident] Right. One quick deployment, then a brew. [sarcastic] What could possibly go wrong?",
+      "duration": 5.2
+    },
+    {
+      "line": "03",
+      "id": "bfOIp3kgzqj5bM8sHWzo",
+      "prompt": "[curious] Aye? Does that mean the trains run on time?",
+      "duration": 2.72
+    },
+    {
+      "line": "05",
+      "id": "WbxwypFAnGQtdNx9YLz2",
+      "prompt": "[sarcastic] Typical. Is it at least backwards compatible?",
+      "duration": 3.04
+    },
+    {
+      "line": "07",
+      "id": "5Eky2MwViCsq7Q8fHPa5",
+      "prompt": "[sarcastic] Tell it to raise a ticket. I'm not doing support for the entire multiverse.",
+      "duration": 4.48
+    },
+    {
+      "line": "09",
+      "id": "mHQF2p24PNHHidVHjDW0",
+      "prompt": "[confident] I'm a developer in the North. I've seen worse on a Friday afternoon. [tired] Still raining, though.",
+      "duration": 5.84
+    }
+  ]
+}

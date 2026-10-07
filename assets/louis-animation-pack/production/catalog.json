@@ -1,0 +1,168 @@
+[
+  {
+    "id": "louis-clean",
+    "name": "Louis clean rig",
+    "width": 1536,
+    "height": 1408,
+    "description": "Flat vector rebuild · registered face views · compact hands · overlapping joints"
+  },
+  {
+    "id": "louis-model-sheet",
+    "name": "Louis model sheet",
+    "width": 1224,
+    "height": 1285,
+    "file": "clean-v3/model-sheet.png",
+    "description": "Front, three-quarter and profile drawing reference"
+  },
+  {
+    "id": "louis",
+    "name": "Louis rig",
+    "width": 1536,
+    "height": 1408,
+    "description": "Original separated character parts · eyelids · connected actions"
+  },
+  {
+    "id": "room",
+    "name": "Home office",
+    "width": 1920,
+    "height": 1080,
+    "description": "Front-facing room and floor",
+    "file": "production/room.svg"
+  },
+  {
+    "id": "chair",
+    "name": "Desk chair",
+    "width": 230,
+    "height": 440,
+    "description": "Independent chair and stand-up clearance",
+    "file": "production/chair.svg"
+  },
+  {
+    "id": "desk",
+    "name": "Oak desk",
+    "width": 890,
+    "height": 390,
+    "description": "Foreground desk with clean occlusion",
+    "file": "production/desk.svg"
+  },
+  {
+    "id": "monitor",
+    "name": "Desk monitor",
+    "width": 330,
+    "height": 290,
+    "description": "Rear of monitor, on a separate stand",
+    "file": "production/monitor.svg"
+  },
+  {
+    "id": "keyboard",
+    "name": "Keyboard",
+    "width": 250,
+    "height": 60,
+    "description": "Typing surface",
+    "file": "production/keyboard.svg"
+  },
+  {
+    "id": "counter",
+    "name": "Tea counter",
+    "width": 480,
+    "height": 410,
+    "description": "Countertop and cupboards",
+    "file": "production/counter.svg"
+  },
+  {
+    "id": "kettle",
+    "name": "Pouring kettle",
+    "width": 180,
+    "height": 190,
+    "description": "Separate handle pivot and spout",
+    "file": "production/kettle.svg"
+  },
+  {
+    "id": "tea-tin",
+    "name": "Tea tin",
+    "width": 90,
+    "height": 130,
+    "description": "Reusable tea-making prop",
+    "file": "production/tea-tin.svg"
+  },
+  {
+    "id": "steam",
+    "name": "Tea steam",
+    "width": 80,
+    "height": 150,
+    "description": "Independent rising steam",
+    "file": "production/steam.svg"
+  },
+  {
+    "id": "water",
+    "name": "Pouring water",
+    "width": 16,
+    "height": 70,
+    "description": "Pour stream",
+    "file": "production/water.svg"
+  },
+  {
+    "id": "indicator",
+    "name": "Kettle light",
+    "width": 18,
+    "height": 10,
+    "description": "Switch-on indicator",
+    "file": "production/indicator.svg"
+  },
+  {
+    "id": "eyelid-half",
+    "name": "Half-closed eyelid",
+    "width": 64,
+    "height": 64,
+    "description": "Registered curved lid line",
+    "file": "production/eyelid-half.svg"
+  },
+  {
+    "id": "eyelid-closed",
+    "name": "Closed eyelid",
+    "width": 64,
+    "height": 64,
+    "description": "Registered closed-eye seam",
+    "file": "production/eyelid-closed.svg"
+  },
+  {
+    "id": "kettle-base",
+    "name": "Kettle base",
+    "width": 180,
+    "height": 30,
+    "description": "Independent base and power lead stay on the counter",
+    "file": "production/kettle-base.svg"
+  },
+  {
+    "id": "northern-louis-free",
+    "name": "Louis · hands-free cartoon pose",
+    "width": 520,
+    "height": 780,
+    "description": "Original cartoon identity · connected questioning hand · registered portrait eyes",
+    "file": "../northern-dev/afternoon-off/louis-hands-free.png"
+  },
+  {
+    "id": "northern-patch-bracing",
+    "name": "Patch · bracing cartoon pose",
+    "width": 480,
+    "height": 720,
+    "description": "Portal technician · connected raised hands and gadget · braced knees",
+    "file": "../northern-dev/afternoon-off/patch-bracing.png"
+  },
+  {
+    "id": "northern-laptop",
+    "name": "Louis · loose laptop",
+    "width": 160,
+    "height": 136,
+    "description": "Separate reusable prop for portal suction and object motion",
+    "file": "parts/prop_laptop.png"
+  },
+  {
+    "id": "northern-bin",
+    "name": "Louis · wheelie bin",
+    "width": 205,
+    "height": 307.5,
+    "description": "British charcoal bin and green lid · independent rolling and portal prop",
+    "file": "../northern-dev/afternoon-off/wheelie-bin.png"
+  }
+]

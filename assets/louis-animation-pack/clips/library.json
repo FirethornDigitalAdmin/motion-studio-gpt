@@ -1,0 +1,646 @@
+[
+  {
+    "id": "rest",
+    "label": "Rig / reset",
+    "duration": 1,
+    "loop": true,
+    "group": "Body"
+  },
+  {
+    "id": "idle",
+    "label": "Neutral idle",
+    "duration": 4,
+    "loop": true,
+    "group": "Body"
+  },
+  {
+    "id": "look",
+    "label": "Look and weight shift",
+    "duration": 4,
+    "loop": true,
+    "group": "Body"
+  },
+  {
+    "id": "walk",
+    "label": "Walk",
+    "duration": 1,
+    "loop": true,
+    "group": "Locomotion",
+    "speed": 150,
+    "stride": 150
+  },
+  {
+    "id": "run",
+    "label": "Run",
+    "duration": 0.6666666666666666,
+    "loop": true,
+    "group": "Locomotion",
+    "speed": 330,
+    "stride": 220
+  },
+  {
+    "id": "start",
+    "label": "Start walking",
+    "duration": 1.5,
+    "loop": false,
+    "group": "Locomotion"
+  },
+  {
+    "id": "stop",
+    "label": "Stop and settle",
+    "duration": 1.5,
+    "loop": false,
+    "group": "Locomotion"
+  },
+  {
+    "id": "speed",
+    "label": "Walk to run to walk",
+    "duration": 4,
+    "loop": false,
+    "group": "Locomotion"
+  },
+  {
+    "id": "backward",
+    "label": "Walk backwards",
+    "duration": 1.25,
+    "loop": true,
+    "group": "Locomotion",
+    "speed": -110,
+    "stride": 137.5
+  },
+  {
+    "id": "sidestep",
+    "label": "Side step / small depth shift",
+    "duration": 2,
+    "loop": false,
+    "group": "Locomotion"
+  },
+  {
+    "id": "turn_head",
+    "label": "Turn head / limited view",
+    "duration": 2,
+    "loop": false,
+    "group": "Body"
+  },
+  {
+    "id": "crouch",
+    "label": "Crouch and rise",
+    "duration": 3,
+    "loop": false,
+    "group": "Body"
+  },
+  {
+    "id": "crouch_idle",
+    "label": "Crouched idle",
+    "duration": 3,
+    "loop": true,
+    "group": "Body"
+  },
+  {
+    "id": "kneel",
+    "label": "Kneel and rise",
+    "duration": 4,
+    "loop": false,
+    "group": "Body"
+  },
+  {
+    "id": "jump",
+    "label": "Anticipation / jump / land",
+    "duration": 2,
+    "loop": false,
+    "group": "Body"
+  },
+  {
+    "id": "sit",
+    "label": "Sit / seated / stand",
+    "duration": 4,
+    "loop": false,
+    "group": "Body"
+  },
+  {
+    "id": "seated_idle",
+    "label": "Seated idle",
+    "duration": 4,
+    "loop": true,
+    "group": "Body"
+  },
+  {
+    "id": "talk",
+    "label": "Standing conversation",
+    "duration": 4,
+    "loop": true,
+    "group": "Social"
+  },
+  {
+    "id": "seated_talk",
+    "label": "Seated conversation",
+    "duration": 4,
+    "loop": true,
+    "group": "Social"
+  },
+  {
+    "id": "listen",
+    "label": "Listening",
+    "duration": 3,
+    "loop": true,
+    "group": "Social"
+  },
+  {
+    "id": "gesture_small",
+    "label": "Small conversation gesture",
+    "duration": 3,
+    "loop": false,
+    "group": "Social"
+  },
+  {
+    "id": "gesture_big",
+    "label": "Expressive gesture",
+    "duration": 3,
+    "loop": false,
+    "group": "Social"
+  },
+  {
+    "id": "wave_hello",
+    "label": "Wave hello",
+    "duration": 2.5,
+    "loop": false,
+    "group": "Social"
+  },
+  {
+    "id": "wave_goodbye",
+    "label": "Wave goodbye",
+    "duration": 3,
+    "loop": false,
+    "group": "Social"
+  },
+  {
+    "id": "point_forward",
+    "label": "Point forward",
+    "duration": 2.5,
+    "loop": false,
+    "group": "Social"
+  },
+  {
+    "id": "point_up",
+    "label": "Point overhead",
+    "duration": 2.5,
+    "loop": false,
+    "group": "Social"
+  },
+  {
+    "id": "point_down",
+    "label": "Point below",
+    "duration": 2.5,
+    "loop": false,
+    "group": "Social"
+  },
+  {
+    "id": "nod",
+    "label": "Nod",
+    "duration": 2,
+    "loop": false,
+    "group": "Social"
+  },
+  {
+    "id": "shake",
+    "label": "Shake head / stylised tilt",
+    "duration": 2,
+    "loop": false,
+    "group": "Social"
+  },
+  {
+    "id": "shrug",
+    "label": "Shrug",
+    "duration": 2.5,
+    "loop": false,
+    "group": "Social"
+  },
+  {
+    "id": "think",
+    "label": "Think",
+    "duration": 3,
+    "loop": false,
+    "group": "Social"
+  },
+  {
+    "id": "surprise",
+    "label": "Surprise reaction",
+    "duration": 2,
+    "loop": false,
+    "group": "Social"
+  },
+  {
+    "id": "celebrate",
+    "label": "Celebrate",
+    "duration": 3,
+    "loop": false,
+    "group": "Social"
+  },
+  {
+    "id": "laugh",
+    "label": "Laugh",
+    "duration": 3,
+    "loop": false,
+    "group": "Social"
+  },
+  {
+    "id": "disappointment",
+    "label": "Disappointment",
+    "duration": 3,
+    "loop": false,
+    "group": "Social"
+  },
+  {
+    "id": "reach_low",
+    "label": "Reach at low",
+    "duration": 2.5,
+    "loop": false,
+    "group": "Interaction"
+  },
+  {
+    "id": "reach_waist",
+    "label": "Reach at waist",
+    "duration": 2.5,
+    "loop": false,
+    "group": "Interaction"
+  },
+  {
+    "id": "reach_shoulder",
+    "label": "Reach at shoulder",
+    "duration": 2.5,
+    "loop": false,
+    "group": "Interaction"
+  },
+  {
+    "id": "pickup",
+    "label": "Pick up / hold / inspect / place",
+    "duration": 6,
+    "loop": false,
+    "group": "Interaction",
+    "events": [
+      {
+        "time": 1.3,
+        "type": "attach",
+        "prop": "cup",
+        "hand": "R"
+      },
+      {
+        "time": 4.8,
+        "type": "release",
+        "prop": "cup"
+      }
+    ]
+  },
+  {
+    "id": "hold_one",
+    "label": "One-handed hold",
+    "duration": 3,
+    "loop": true,
+    "group": "Interaction"
+  },
+  {
+    "id": "hold_two",
+    "label": "Two-handed carry",
+    "duration": 3,
+    "loop": true,
+    "group": "Interaction"
+  },
+  {
+    "id": "carry_walk",
+    "label": "Walk carrying cup",
+    "duration": 1,
+    "loop": true,
+    "group": "Interaction",
+    "speed": 150,
+    "stride": 150
+  },
+  {
+    "id": "carry_run",
+    "label": "Run carrying box",
+    "duration": 0.6666666666666666,
+    "loop": true,
+    "group": "Interaction",
+    "speed": 330,
+    "stride": 220
+  },
+  {
+    "id": "lift_light",
+    "label": "Lift and lower / light",
+    "duration": 3,
+    "loop": false,
+    "group": "Interaction"
+  },
+  {
+    "id": "lift_heavy",
+    "label": "Lift and lower / heavy",
+    "duration": 5,
+    "loop": false,
+    "group": "Interaction"
+  },
+  {
+    "id": "inspect",
+    "label": "Inspect object",
+    "duration": 3,
+    "loop": false,
+    "group": "Interaction"
+  },
+  {
+    "id": "pass",
+    "label": "Pass object",
+    "duration": 3,
+    "loop": false,
+    "group": "Interaction",
+    "events": [
+      {
+        "time": 2.05,
+        "type": "release",
+        "prop": "cup"
+      }
+    ]
+  },
+  {
+    "id": "place",
+    "label": "Place object",
+    "duration": 3,
+    "loop": false,
+    "group": "Interaction",
+    "events": [
+      {
+        "time": 1.8,
+        "type": "release",
+        "prop": "cup"
+      }
+    ]
+  },
+  {
+    "id": "drop",
+    "label": "Release / drop",
+    "duration": 2,
+    "loop": false,
+    "group": "Interaction",
+    "events": [
+      {
+        "time": 0.75,
+        "type": "release",
+        "prop": "cup"
+      }
+    ]
+  },
+  {
+    "id": "push",
+    "label": "Push",
+    "duration": 3,
+    "loop": false,
+    "group": "Interaction"
+  },
+  {
+    "id": "pull",
+    "label": "Pull",
+    "duration": 3,
+    "loop": false,
+    "group": "Interaction"
+  },
+  {
+    "id": "button",
+    "label": "Button press / study",
+    "duration": 2,
+    "loop": false,
+    "group": "Interaction"
+  },
+  {
+    "id": "lever",
+    "label": "Lever pull / study",
+    "duration": 2.5,
+    "loop": false,
+    "group": "Interaction"
+  },
+  {
+    "id": "door",
+    "label": "Door handle pull / study",
+    "duration": 3,
+    "loop": false,
+    "group": "Interaction"
+  },
+  {
+    "id": "drink",
+    "label": "Drink from cup",
+    "duration": 4,
+    "loop": false,
+    "group": "Interaction"
+  },
+  {
+    "id": "eat",
+    "label": "Eat forkful",
+    "duration": 4,
+    "loop": false,
+    "group": "Interaction"
+  },
+  {
+    "id": "read",
+    "label": "Read book",
+    "duration": 4,
+    "loop": true,
+    "group": "Interaction"
+  },
+  {
+    "id": "phone",
+    "label": "Use phone",
+    "duration": 4,
+    "loop": true,
+    "group": "Interaction"
+  },
+  {
+    "id": "type",
+    "label": "Type on laptop",
+    "duration": 4,
+    "loop": true,
+    "group": "Interaction"
+  },
+  {
+    "id": "write",
+    "label": "Writing gesture / tool unsupplied",
+    "duration": 4,
+    "loop": true,
+    "group": "Interaction"
+  },
+  {
+    "id": "stairs",
+    "label": "Climb a stair / contact study",
+    "duration": 2,
+    "loop": false,
+    "group": "Extended"
+  },
+  {
+    "id": "ladder",
+    "label": "Ladder step / contact study",
+    "duration": 3,
+    "loop": false,
+    "group": "Extended"
+  },
+  {
+    "id": "crawl",
+    "label": "Crawl cycle",
+    "duration": 2,
+    "loop": true,
+    "group": "Extended"
+  },
+  {
+    "id": "lean",
+    "label": "Lean against surface",
+    "duration": 3,
+    "loop": false,
+    "group": "Extended"
+  },
+  {
+    "id": "bend",
+    "label": "Bend / reach",
+    "duration": 3,
+    "loop": false,
+    "group": "Extended"
+  },
+  {
+    "id": "overhead",
+    "label": "Reach overhead",
+    "duration": 3,
+    "loop": false,
+    "group": "Extended"
+  },
+  {
+    "id": "floor_sit",
+    "label": "Sit on floor / rise",
+    "duration": 4,
+    "loop": false,
+    "group": "Extended"
+  },
+  {
+    "id": "lie",
+    "label": "Lie down / rise",
+    "duration": 5,
+    "loop": false,
+    "group": "Extended"
+  },
+  {
+    "id": "sleep",
+    "label": "Sleeping breath",
+    "duration": 4,
+    "loop": true,
+    "group": "Extended"
+  },
+  {
+    "id": "wake",
+    "label": "Wake / rise",
+    "duration": 4,
+    "loop": false,
+    "group": "Extended"
+  },
+  {
+    "id": "stretch",
+    "label": "Stretch",
+    "duration": 3,
+    "loop": false,
+    "group": "Extended"
+  },
+  {
+    "id": "yawn",
+    "label": "Yawn",
+    "duration": 3,
+    "loop": false,
+    "group": "Extended"
+  },
+  {
+    "id": "stumble",
+    "label": "Stumble and recover",
+    "duration": 3,
+    "loop": false,
+    "group": "Extended"
+  },
+  {
+    "id": "fall",
+    "label": "Fall / recover study",
+    "duration": 4,
+    "loop": false,
+    "group": "Extended"
+  },
+  {
+    "id": "dance",
+    "label": "Playful dance",
+    "duration": 3,
+    "loop": true,
+    "group": "Extended"
+  },
+  {
+    "id": "awkward",
+    "label": "Awkward heavy carry",
+    "duration": 4,
+    "loop": true,
+    "group": "Extended"
+  },
+  {
+    "id": "combo_walk_talk",
+    "label": "1 · Walk / talk / blink",
+    "duration": 4,
+    "loop": true,
+    "group": "Combinations",
+    "speed": 150,
+    "stride": 150
+  },
+  {
+    "id": "combo_walk_cup",
+    "label": "2 · Walk / carry cup",
+    "duration": 2,
+    "loop": true,
+    "group": "Combinations",
+    "speed": 150,
+    "stride": 150
+  },
+  {
+    "id": "combo_run_box",
+    "label": "3 · Run / two-hand box",
+    "duration": 2,
+    "loop": true,
+    "group": "Combinations",
+    "speed": 330,
+    "stride": 220
+  },
+  {
+    "id": "combo_sit_talk",
+    "label": "4 · Seated / speech / gesture",
+    "duration": 4,
+    "loop": true,
+    "group": "Combinations"
+  },
+  {
+    "id": "combo_pickup",
+    "label": "5 · Pick / inspect / place",
+    "duration": 6,
+    "loop": false,
+    "group": "Combinations",
+    "events": [
+      {
+        "time": 1.3,
+        "type": "attach",
+        "prop": "cup",
+        "hand": "R"
+      },
+      {
+        "time": 4.8,
+        "type": "release",
+        "prop": "cup"
+      }
+    ]
+  },
+  {
+    "id": "combo_expression",
+    "label": "6 · Expression during speech",
+    "duration": 6,
+    "loop": true,
+    "group": "Combinations"
+  },
+  {
+    "id": "viseme_demo",
+    "label": "Timed viseme demo / no audio",
+    "duration": 6.4,
+    "loop": true,
+    "group": "Face"
+  }
+]

@@ -1,0 +1,173 @@
+{
+  "head": {
+    "file": "clean-v3/parts/head.svg"
+  },
+  "head_front": {
+    "file": "clean-v3/parts/head_front.svg"
+  },
+  "head_profile": {
+    "file": "clean-v3/parts/head_profile.svg"
+  },
+  "neck": {
+    "file": "clean-v3/parts/neck.svg"
+  },
+  "torso": {
+    "file": "clean-v3/parts/torso.svg"
+  },
+  "upper_arm_R": {
+    "file": "clean-v3/parts/upper_arm_R.svg"
+  },
+  "forearm_R": {
+    "file": "clean-v3/parts/forearm_R.svg"
+  },
+  "hand_R_relaxed": {
+    "file": "clean-v3/parts/hand_R_relaxed.svg"
+  },
+  "hand_R_open": {
+    "file": "clean-v3/parts/hand_R_open.svg"
+  },
+  "hand_R_point": {
+    "file": "clean-v3/parts/hand_R_point.svg"
+  },
+  "hand_R_fist": {
+    "file": "clean-v3/parts/hand_R_fist.svg"
+  },
+  "hand_R_grasp": {
+    "file": "clean-v3/parts/hand_R_grasp.svg"
+  },
+  "hand_R_handle": {
+    "file": "clean-v3/parts/hand_R_handle.svg"
+  },
+  "hand_R_pinch": {
+    "file": "clean-v3/parts/hand_R_pinch.svg"
+  },
+  "hand_R_typing": {
+    "file": "clean-v3/parts/hand_R_typing.svg"
+  },
+  "hand_R_support": {
+    "file": "clean-v3/parts/hand_R_support.svg"
+  },
+  "hand_R_carry": {
+    "file": "clean-v3/parts/hand_R_carry.svg"
+  },
+  "hand_R_kettle": {
+    "file": "clean-v3/parts/hand_R_kettle.svg"
+  },
+  "thigh_R": {
+    "file": "clean-v3/parts/thigh_R.svg"
+  },
+  "shin_R": {
+    "file": "clean-v3/parts/shin_R.svg"
+  },
+  "foot_R": {
+    "file": "clean-v3/parts/foot_R.svg"
+  },
+  "upper_arm_L": {
+    "file": "clean-v3/parts/upper_arm_L.svg"
+  },
+  "forearm_L": {
+    "file": "clean-v3/parts/forearm_L.svg"
+  },
+  "hand_L_relaxed": {
+    "file": "clean-v3/parts/hand_L_relaxed.svg"
+  },
+  "hand_L_open": {
+    "file": "clean-v3/parts/hand_L_open.svg"
+  },
+  "hand_L_point": {
+    "file": "clean-v3/parts/hand_L_point.svg"
+  },
+  "hand_L_fist": {
+    "file": "clean-v3/parts/hand_L_fist.svg"
+  },
+  "hand_L_grasp": {
+    "file": "clean-v3/parts/hand_L_grasp.svg"
+  },
+  "hand_L_handle": {
+    "file": "clean-v3/parts/hand_L_handle.svg"
+  },
+  "hand_L_pinch": {
+    "file": "clean-v3/parts/hand_L_pinch.svg"
+  },
+  "hand_L_typing": {
+    "file": "clean-v3/parts/hand_L_typing.svg"
+  },
+  "hand_L_support": {
+    "file": "clean-v3/parts/hand_L_support.svg"
+  },
+  "hand_L_carry": {
+    "file": "clean-v3/parts/hand_L_carry.svg"
+  },
+  "hand_L_kettle": {
+    "file": "clean-v3/parts/hand_L_kettle.svg"
+  },
+  "thigh_L": {
+    "file": "clean-v3/parts/thigh_L.svg"
+  },
+  "shin_L": {
+    "file": "clean-v3/parts/shin_L.svg"
+  },
+  "foot_L": {
+    "file": "clean-v3/parts/foot_L.svg"
+  },
+  "pelvis": {
+    "file": "clean-v3/parts/pelvis.svg"
+  },
+  "eye_R": {
+    "file": "clean-v3/parts/eye_R.svg"
+  },
+  "eye_L": {
+    "file": "clean-v3/parts/eye_L.svg"
+  },
+  "pupil": {
+    "file": "clean-v3/parts/pupil.svg"
+  },
+  "brow": {
+    "file": "clean-v3/parts/brow.svg"
+  },
+  "mouth_sil": {
+    "file": "clean-v3/parts/mouth_sil.svg"
+  },
+  "mouth_PP": {
+    "file": "clean-v3/parts/mouth_PP.svg"
+  },
+  "mouth_FF": {
+    "file": "clean-v3/parts/mouth_FF.svg"
+  },
+  "mouth_TH": {
+    "file": "clean-v3/parts/mouth_TH.svg"
+  },
+  "mouth_DD": {
+    "file": "clean-v3/parts/mouth_DD.svg"
+  },
+  "mouth_kk": {
+    "file": "clean-v3/parts/mouth_kk.svg"
+  },
+  "mouth_CH": {
+    "file": "clean-v3/parts/mouth_CH.svg"
+  },
+  "mouth_SS": {
+    "file": "clean-v3/parts/mouth_SS.svg"
+  },
+  "mouth_nn": {
+    "file": "clean-v3/parts/mouth_nn.svg"
+  },
+  "mouth_RR": {
+    "file": "clean-v3/parts/mouth_RR.svg"
+  },
+  "mouth_aa": {
+    "file": "clean-v3/parts/mouth_aa.svg"
+  },
+  "mouth_E": {
+    "file": "clean-v3/parts/mouth_E.svg"
+  },
+  "mouth_I": {
+    "file": "clean-v3/parts/mouth_I.svg"
+  },
+  "mouth_O": {
+    "file": "clean-v3/parts/mouth_O.svg"
+  },
+  "mouth_U": {
+    "file": "clean-v3/parts/mouth_U.svg"
+  }
+}

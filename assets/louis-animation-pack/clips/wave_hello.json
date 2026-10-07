@@ -1,0 +1,25 @@
+{
+  "format": "louis-cutout-clip-v1",
+  "id": "wave_hello",
+  "label": "Wave hello",
+  "duration": 2.5,
+  "loop": false,
+  "group": "Social",
+  "fps": 24,
+  "view": "three-quarter-right",
+  "frameCount": 60,
+  "rootMotion": {
+    "mode": "in-place",
+    "pixelsPerSecond": 0,
+    "stridePixels": 0
+  },
+  "channels": [
+    "posture",
+    "upper-body",
+    "hands-props",
+    "expression-cues"
+  ],
+  "events": [],
+  "native": "../native/wave_hello.motion/project.json",
+  "generator": "../rig/runtime.mjs#sample"
+}

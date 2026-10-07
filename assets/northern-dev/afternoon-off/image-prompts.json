@@ -1,0 +1,20 @@
+{
+  "tool": "built-in image_gen",
+  "transparent_background": true,
+  "assets": [
+    {
+      "file": "louis-hands-free.png",
+      "reference": "../louis-cartoon.png",
+      "prompt": "Edit this existing 1024 x 1536 cartoon animation asset for the same animation rig. Preserve the exact character identity, face, hair, beard, proportions, eye placement, head position and silhouette, navy polo, grey trousers, trainers, line weight and flat cartoon shading. Do not move or redraw the head: keep the head/face as closely aligned to the original as possible. Remove the laptop completely. Change only the arm pose: his viewer-right arm hangs relaxed alongside his hip, anatomically connected through sleeve/elbow/wrist to a clean natural empty hand; his viewer-left arm bends at the elbow with an open palm facing up at waist height, dry understated questioning gesture. Feet stay planted at identical positions. Production quality clean cartoon asset, proper elbows and fingers, no detached pieces, no additional objects. One full-body character, entire shoes and hair visible, same canvas and scale as original. Genuine transparent background, no glow, no cast shadow or backdrop."
+    },
+    {
+      "file": "patch-bracing.png",
+      "reference": "../patch.png",
+      "prompt": "Create an alternate production animation pose of this exact existing cartoon character Patch. Preserve original 1024 x 1536 canvas, character identity, the exact head at exactly its existing position, purple bob, antenna, facial features, eye centres and sizes, turquoise skin, orange jumpsuit, boots, clean line weights and flat shading. Change body pose only: she is bracing against a strong wind from the viewer-right, knees subtly flexed, feet still at original positions, torso leaning a little left. The viewer-left arm extends toward viewer-left presenting the exact same handheld portal gadget, anatomically continuous shoulder, sleeve, elbow, wrist and grip. The viewer-right hand raises at chest height in an exasperated open palm gesture, retain wrist device. Both hands connected correctly; believable limb anatomy with no loose pieces. Do not redraw or shift the face or head. Entire body and antenna remain visible. Transparent background with no added scenery, no glow, no cast shadows. No captions."
+    },
+    {
+      "file": "wheelie-bin.png",
+      "prompt": "Single isolated prop for a clean hand-drawn adult sci-fi cartoon comedy animation: an ordinary British dark charcoal grey plastic wheelie bin with a closed dark green hinged lid and two small black wheels. Slight three-quarter view, wheels visible, squat practical proportions, black clean consistent cartoon contour lines, flat solid colours with one simple shaded side panel. No text, no logos, no character faces, no rubbish protruding. Entire bin fits comfortably in canvas. Orthographic cartoon prop, not photorealistic, no cast shadow, no glow. Genuine transparent background."
+    }
+  ]
+}

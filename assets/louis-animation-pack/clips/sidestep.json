@@ -1,0 +1,24 @@
+{
+  "format": "louis-cutout-clip-v1",
+  "id": "sidestep",
+  "label": "Side step / small depth shift",
+  "duration": 2,
+  "loop": false,
+  "group": "Locomotion",
+  "fps": 24,
+  "view": "three-quarter-right",
+  "frameCount": 48,
+  "rootMotion": {
+    "mode": "in-place",
+    "pixelsPerSecond": 0,
+    "stridePixels": 0
+  },
+  "channels": [
+    "posture",
+    "locomotion",
+    "arm-swing"
+  ],
+  "events": [],
+  "native": "../native/sidestep.motion/project.json",
+  "generator": "../rig/runtime.mjs#sample"
+}

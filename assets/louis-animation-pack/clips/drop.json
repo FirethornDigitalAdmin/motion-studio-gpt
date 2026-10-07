@@ -1,0 +1,31 @@
+{
+  "format": "louis-cutout-clip-v1",
+  "id": "drop",
+  "label": "Release / drop",
+  "duration": 2,
+  "loop": false,
+  "group": "Interaction",
+  "events": [
+    {
+      "time": 0.75,
+      "type": "release",
+      "prop": "cup"
+    }
+  ],
+  "fps": 24,
+  "view": "three-quarter-right",
+  "frameCount": 48,
+  "rootMotion": {
+    "mode": "in-place",
+    "pixelsPerSecond": 0,
+    "stridePixels": 0
+  },
+  "channels": [
+    "posture",
+    "upper-body",
+    "hands-props",
+    "expression-cues"
+  ],
+  "native": "../native/drop.motion/project.json",
+  "generator": "../rig/runtime.mjs#sample"
+}

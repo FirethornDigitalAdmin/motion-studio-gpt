@@ -1,0 +1,21 @@
+node_modules/
+dist/
+projects/
+test-results/
+playwright-report/
+*.mp4
+
+.test-projects/
+
+# Local settings and generated outputs
+.DS_Store
+.env
+.env.*
+!.env.example
+*.log
+deliverables/
+assets/louis-animation-pack/frames/
+assets/louis-animation-pack/atlases/
+assets/louis-animation-pack/native/
+assets/louis-animation-pack/previews/
+assets/louis-animation-pack/validation/

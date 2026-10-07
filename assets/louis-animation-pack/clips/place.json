@@ -1,0 +1,31 @@
+{
+  "format": "louis-cutout-clip-v1",
+  "id": "place",
+  "label": "Place object",
+  "duration": 3,
+  "loop": false,
+  "group": "Interaction",
+  "events": [
+    {
+      "time": 1.8,
+      "type": "release",
+      "prop": "cup"
+    }
+  ],
+  "fps": 24,
+  "view": "three-quarter-right",
+  "frameCount": 72,
+  "rootMotion": {
+    "mode": "in-place",
+    "pixelsPerSecond": 0,
+    "stridePixels": 0
+  },
+  "channels": [
+    "posture",
+    "upper-body",
+    "hands-props",
+    "expression-cues"
+  ],
+  "native": "../native/place.motion/project.json",
+  "generator": "../rig/runtime.mjs#sample"
+}

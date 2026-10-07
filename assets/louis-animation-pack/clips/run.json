@@ -1,0 +1,26 @@
+{
+  "format": "louis-cutout-clip-v1",
+  "id": "run",
+  "label": "Run",
+  "duration": 0.6666666666666666,
+  "loop": true,
+  "group": "Locomotion",
+  "speed": 330,
+  "stride": 220,
+  "fps": 24,
+  "view": "three-quarter-right",
+  "frameCount": 16,
+  "rootMotion": {
+    "mode": "in-place",
+    "pixelsPerSecond": 330,
+    "stridePixels": 220
+  },
+  "channels": [
+    "posture",
+    "locomotion",
+    "arm-swing"
+  ],
+  "events": [],
+  "native": "../native/run.motion/project.json",
+  "generator": "../rig/runtime.mjs#sample"
+}

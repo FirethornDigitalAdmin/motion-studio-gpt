@@ -1,0 +1,25 @@
+{
+  "format": "louis-cutout-clip-v1",
+  "id": "read",
+  "label": "Read book",
+  "duration": 4,
+  "loop": true,
+  "group": "Interaction",
+  "fps": 24,
+  "view": "three-quarter-right",
+  "frameCount": 96,
+  "rootMotion": {
+    "mode": "in-place",
+    "pixelsPerSecond": 0,
+    "stridePixels": 0
+  },
+  "channels": [
+    "posture",
+    "upper-body",
+    "hands-props",
+    "expression-cues"
+  ],
+  "events": [],
+  "native": "../native/read.motion/project.json",
+  "generator": "../rig/runtime.mjs#sample"
+}

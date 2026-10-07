@@ -1,0 +1,986 @@
+{
+  "head": {
+    "file": "parts/head.png",
+    "source": "body-grid.png",
+    "cell": 0,
+    "sourceRect": {
+      "x": 50,
+      "y": 9,
+      "width": 236,
+      "height": 297
+    },
+    "width": 244,
+    "height": 305,
+    "padding": 4
+  },
+  "torso": {
+    "file": "parts/torso.png",
+    "source": "body-grid.png",
+    "cell": 1,
+    "sourceRect": {
+      "x": 346,
+      "y": 18,
+      "width": 271,
+      "height": 290
+    },
+    "width": 279,
+    "height": 298,
+    "padding": 4
+  },
+  "pelvis": {
+    "file": "parts/pelvis.png",
+    "source": "body-grid.png",
+    "cell": 2,
+    "sourceRect": {
+      "x": 674,
+      "y": 99,
+      "width": 227,
+      "height": 141
+    },
+    "width": 235,
+    "height": 149,
+    "padding": 4
+  },
+  "neck": {
+    "file": "parts/neck.png",
+    "source": "body-grid.png",
+    "cell": 3,
+    "sourceRect": {
+      "x": 1028,
+      "y": 174,
+      "width": 135,
+      "height": 121
+    },
+    "width": 143,
+    "height": 129,
+    "padding": 4
+  },
+  "upper_arm_R": {
+    "file": "parts/upper_arm_R.png",
+    "source": "body-grid.png",
+    "cell": 4,
+    "sourceRect": {
+      "x": 93,
+      "y": 333,
+      "width": 115,
+      "height": 281
+    },
+    "width": 123,
+    "height": 289,
+    "padding": 4
+  },
+  "forearm_R": {
+    "file": "parts/forearm_R.png",
+    "source": "body-grid.png",
+    "cell": 5,
+    "sourceRect": {
+      "x": 416,
+      "y": 349,
+      "width": 95,
+      "height": 262
+    },
+    "width": 103,
+    "height": 270,
+    "padding": 4
+  },
+  "upper_arm_L": {
+    "file": "parts/upper_arm_L.png",
+    "source": "body-grid.png",
+    "cell": 6,
+    "sourceRect": {
+      "x": 737,
+      "y": 333,
+      "width": 112,
+      "height": 281
+    },
+    "width": 120,
+    "height": 289,
+    "padding": 4
+  },
+  "forearm_L": {
+    "file": "parts/forearm_L.png",
+    "source": "body-grid.png",
+    "cell": 7,
+    "sourceRect": {
+      "x": 1058,
+      "y": 348,
+      "width": 94,
+      "height": 263
+    },
+    "width": 102,
+    "height": 271,
+    "padding": 4
+  },
+  "thigh_R": {
+    "file": "parts/thigh_R.png",
+    "source": "body-grid.png",
+    "cell": 8,
+    "sourceRect": {
+      "x": 92,
+      "y": 633,
+      "width": 130,
+      "height": 299
+    },
+    "width": 138,
+    "height": 307,
+    "padding": 4
+  },
+  "shin_R": {
+    "file": "parts/shin_R.png",
+    "source": "body-grid.png",
+    "cell": 9,
+    "sourceRect": {
+      "x": 419,
+      "y": 634,
+      "width": 102,
+      "height": 297
+    },
+    "width": 110,
+    "height": 305,
+    "padding": 4
+  },
+  "thigh_L": {
+    "file": "parts/thigh_L.png",
+    "source": "body-grid.png",
+    "cell": 10,
+    "sourceRect": {
+      "x": 730,
+      "y": 632,
+      "width": 128,
+      "height": 299
+    },
+    "width": 136,
+    "height": 307,
+    "padding": 4
+  },
+  "shin_L": {
+    "file": "parts/shin_L.png",
+    "source": "body-grid.png",
+    "cell": 11,
+    "sourceRect": {
+      "x": 1052,
+      "y": 634,
+      "width": 98,
+      "height": 297
+    },
+    "width": 106,
+    "height": 305,
+    "padding": 4
+  },
+  "foot_R": {
+    "file": "parts/foot_R.png",
+    "source": "body-grid.png",
+    "cell": 12,
+    "sourceRect": {
+      "x": 42,
+      "y": 1016,
+      "width": 227,
+      "height": 177
+    },
+    "width": 235,
+    "height": 185,
+    "padding": 4
+  },
+  "foot_L": {
+    "file": "parts/foot_L.png",
+    "source": "body-grid.png",
+    "cell": 13,
+    "sourceRect": {
+      "x": 364,
+      "y": 1022,
+      "width": 238,
+      "height": 164
+    },
+    "width": 246,
+    "height": 172,
+    "padding": 4
+  },
+  "hand_R_relaxed": {
+    "file": "parts/hand_R_relaxed.png",
+    "source": "body-grid.png",
+    "cell": 14,
+    "sourceRect": {
+      "x": 717,
+      "y": 969,
+      "width": 144,
+      "height": 231
+    },
+    "width": 152,
+    "height": 239,
+    "padding": 4
+  },
+  "hand_L_relaxed": {
+    "file": "parts/hand_L_relaxed.png",
+    "source": "body-grid.png",
+    "cell": 15,
+    "sourceRect": {
+      "x": 1020,
+      "y": 969,
+      "width": 143,
+      "height": 231
+    },
+    "width": 151,
+    "height": 239,
+    "padding": 4
+  },
+  "eye_R": {
+    "file": "parts/eye_R.png",
+    "source": "face-grid.png",
+    "cell": 0,
+    "sourceRect": {
+      "x": 69,
+      "y": 108,
+      "width": 175,
+      "height": 167
+    },
+    "width": 183,
+    "height": 175,
+    "padding": 4
+  },
+  "eye_L": {
+    "file": "parts/eye_L.png",
+    "source": "face-grid.png",
+    "cell": 1,
+    "sourceRect": {
+      "x": 358,
+      "y": 125,
+      "width": 148,
+      "height": 148
+    },
+    "width": 156,
+    "height": 156,
+    "padding": 4
+  },
+  "pupil": {
+    "file": "parts/pupil.png",
+    "source": "face-grid.png",
+    "cell": 2,
+    "sourceRect": {
+      "x": 681,
+      "y": 183,
+      "width": 40,
+      "height": 41
+    },
+    "width": 48,
+    "height": 49,
+    "padding": 4
+  },
+  "brow": {
+    "file": "parts/brow.png",
+    "source": "face-grid.png",
+    "cell": 3,
+    "sourceRect": {
+      "x": 890,
+      "y": 170,
+      "width": 168,
+      "height": 65
+    },
+    "width": 176,
+    "height": 73,
+    "padding": 4
+  },
+  "mouth_sil": {
+    "file": "parts/mouth_sil.png",
+    "source": "face-grid.png",
+    "cell": 4,
+    "sourceRect": {
+      "x": 72,
+      "y": 471,
+      "width": 169,
+      "height": 32
+    },
+    "width": 177,
+    "height": 40,
+    "padding": 4
+  },
+  "mouth_PP": {
+    "file": "parts/mouth_PP.png",
+    "source": "face-grid.png",
+    "cell": 5,
+    "sourceRect": {
+      "x": 343,
+      "y": 457,
+      "width": 175,
+      "height": 60
+    },
+    "width": 183,
+    "height": 68,
+    "padding": 4
+  },
+  "mouth_FF": {
+    "file": "parts/mouth_FF.png",
+    "source": "face-grid.png",
+    "cell": 6,
+    "sourceRect": {
+      "x": 619,
+      "y": 453,
+      "width": 167,
+      "height": 82
+    },
+    "width": 175,
+    "height": 90,
+    "padding": 4
+  },
+  "mouth_TH": {
+    "file": "parts/mouth_TH.png",
+    "source": "face-grid.png",
+    "cell": 7,
+    "sourceRect": {
+      "x": 891,
+      "y": 451,
+      "width": 176,
+      "height": 77
+    },
+    "width": 184,
+    "height": 85,
+    "padding": 4
+  },
+  "mouth_DD": {
+    "file": "parts/mouth_DD.png",
+    "source": "face-grid.png",
+    "cell": 8,
+    "sourceRect": {
+      "x": 64,
+      "y": 677,
+      "width": 180,
+      "height": 112
+    },
+    "width": 188,
+    "height": 120,
+    "padding": 4
+  },
+  "mouth_kk": {
+    "file": "parts/mouth_kk.png",
+    "source": "face-grid.png",
+    "cell": 9,
+    "sourceRect": {
+      "x": 344,
+      "y": 677,
+      "width": 175,
+      "height": 110
+    },
+    "width": 183,
+    "height": 118,
+    "padding": 4
+  },
+  "mouth_CH": {
+    "file": "parts/mouth_CH.png",
+    "source": "face-grid.png",
+    "cell": 10,
+    "sourceRect": {
+      "x": 605,
+      "y": 689,
+      "width": 195,
+      "height": 87
+    },
+    "width": 203,
+    "height": 95,
+    "padding": 4
+  },
+  "mouth_SS": {
+    "file": "parts/mouth_SS.png",
+    "source": "face-grid.png",
+    "cell": 11,
+    "sourceRect": {
+      "x": 886,
+      "y": 709,
+      "width": 187,
+      "height": 41
+    },
+    "width": 195,
+    "height": 49,
+    "padding": 4
+  },
+  "mouth_nn": {
+    "file": "parts/mouth_nn.png",
+    "source": "face-grid.png",
+    "cell": 12,
+    "sourceRect": {
+      "x": 91,
+      "y": 925,
+      "width": 127,
+      "height": 71
+    },
+    "width": 135,
+    "height": 79,
+    "padding": 4
+  },
+  "mouth_RR": {
+    "file": "parts/mouth_RR.png",
+    "source": "face-grid.png",
+    "cell": 13,
+    "sourceRect": {
+      "x": 369,
+      "y": 919,
+      "width": 125,
+      "height": 98
+    },
+    "width": 133,
+    "height": 106,
+    "padding": 4
+  },
+  "mouth_aa": {
+    "file": "parts/mouth_aa.png",
+    "source": "face-grid.png",
+    "cell": 14,
+    "sourceRect": {
+      "x": 624,
+      "y": 889,
+      "width": 158,
+      "height": 141
+    },
+    "width": 166,
+    "height": 149,
+    "padding": 4
+  },
+  "mouth_E": {
+    "file": "parts/mouth_E.png",
+    "source": "face-grid.png",
+    "cell": 15,
+    "sourceRect": {
+      "x": 882,
+      "y": 915,
+      "width": 201,
+      "height": 93
+    },
+    "width": 209,
+    "height": 101,
+    "padding": 4
+  },
+  "mouth_I": {
+    "file": "parts/mouth_I.png",
+    "source": "face-grid.png",
+    "cell": 16,
+    "sourceRect": {
+      "x": 57,
+      "y": 1178,
+      "width": 200,
+      "height": 67
+    },
+    "width": 208,
+    "height": 75,
+    "padding": 4
+  },
+  "mouth_O": {
+    "file": "parts/mouth_O.png",
+    "source": "face-grid.png",
+    "cell": 17,
+    "sourceRect": {
+      "x": 380,
+      "y": 1137,
+      "width": 105,
+      "height": 135
+    },
+    "width": 113,
+    "height": 143,
+    "padding": 4
+  },
+  "mouth_U": {
+    "file": "parts/mouth_U.png",
+    "source": "face-grid.png",
+    "cell": 18,
+    "sourceRect": {
+      "x": 661,
+      "y": 1161,
+      "width": 86,
+      "height": 96
+    },
+    "width": 94,
+    "height": 104,
+    "padding": 4
+  },
+  "eye_closed": {
+    "file": "parts/eye_closed.png",
+    "source": "face-grid.png",
+    "cell": 19,
+    "sourceRect": {
+      "x": 908,
+      "y": 1192,
+      "width": 158,
+      "height": 34
+    },
+    "width": 166,
+    "height": 42,
+    "padding": 4
+  },
+  "hand_R_relaxed_alt": {
+    "file": "parts/hand_R_relaxed_alt.png",
+    "source": "hand-prop-grid.png",
+    "cell": 0,
+    "sourceRect": {
+      "x": 95,
+      "y": 57,
+      "width": 143,
+      "height": 240
+    },
+    "width": 151,
+    "height": 248,
+    "padding": 4
+  },
+  "hand_R_open": {
+    "file": "parts/hand_R_open.png",
+    "source": "hand-prop-grid.png",
+    "cell": 1,
+    "sourceRect": {
+      "x": 348,
+      "y": 27,
+      "width": 242,
+      "height": 277
+    },
+    "width": 250,
+    "height": 285,
+    "padding": 4
+  },
+  "hand_R_fist": {
+    "file": "parts/hand_R_fist.png",
+    "source": "hand-prop-grid.png",
+    "cell": 2,
+    "sourceRect": {
+      "x": 685,
+      "y": 88,
+      "width": 173,
+      "height": 210
+    },
+    "width": 181,
+    "height": 218,
+    "padding": 4
+  },
+  "hand_R_point": {
+    "file": "parts/hand_R_point.png",
+    "source": "hand-prop-grid.png",
+    "cell": 3,
+    "sourceRect": {
+      "x": 979,
+      "y": 49,
+      "width": 228,
+      "height": 253
+    },
+    "width": 236,
+    "height": 261,
+    "padding": 4
+  },
+  "hand_R_wave": {
+    "file": "parts/hand_R_wave.png",
+    "source": "hand-prop-grid.png",
+    "cell": 4,
+    "sourceRect": {
+      "x": 57,
+      "y": 342,
+      "width": 220,
+      "height": 268
+    },
+    "width": 228,
+    "height": 276,
+    "padding": 4
+  },
+  "hand_R_pinch": {
+    "file": "parts/hand_R_pinch.png",
+    "source": "hand-prop-grid.png",
+    "cell": 5,
+    "sourceRect": {
+      "x": 392,
+      "y": 391,
+      "width": 156,
+      "height": 218
+    },
+    "width": 164,
+    "height": 226,
+    "padding": 4
+  },
+  "hand_R_grasp": {
+    "file": "parts/hand_R_grasp.png",
+    "source": "hand-prop-grid.png",
+    "cell": 6,
+    "sourceRect": {
+      "x": 684,
+      "y": 373,
+      "width": 176,
+      "height": 239
+    },
+    "width": 184,
+    "height": 247,
+    "padding": 4
+  },
+  "hand_R_handle": {
+    "file": "parts/hand_R_handle.png",
+    "source": "hand-prop-grid.png",
+    "cell": 7,
+    "sourceRect": {
+      "x": 990,
+      "y": 406,
+      "width": 165,
+      "height": 208
+    },
+    "width": 173,
+    "height": 216,
+    "padding": 4
+  },
+  "hand_R_support": {
+    "file": "parts/hand_R_support.png",
+    "source": "hand-prop-grid.png",
+    "cell": 8,
+    "sourceRect": {
+      "x": 27,
+      "y": 759,
+      "width": 254,
+      "height": 111
+    },
+    "width": 262,
+    "height": 119,
+    "padding": 4
+  },
+  "hand_R_carry": {
+    "file": "parts/hand_R_carry.png",
+    "source": "hand-prop-grid.png",
+    "cell": 9,
+    "sourceRect": {
+      "x": 371,
+      "y": 740,
+      "width": 211,
+      "height": 167
+    },
+    "width": 219,
+    "height": 175,
+    "padding": 4
+  },
+  "prop_cup": {
+    "file": "parts/prop_cup.png",
+    "source": "hand-prop-grid.png",
+    "cell": 10,
+    "sourceRect": {
+      "x": 643,
+      "y": 698,
+      "width": 232,
+      "height": 199
+    },
+    "width": 240,
+    "height": 207,
+    "padding": 4
+  },
+  "prop_box": {
+    "file": "parts/prop_box.png",
+    "source": "hand-prop-grid.png",
+    "cell": 11,
+    "sourceRect": {
+      "x": 951,
+      "y": 678,
+      "width": 255,
+      "height": 236
+    },
+    "width": 263,
+    "height": 244,
+    "padding": 4
+  },
+  "prop_laptop": {
+    "file": "parts/prop_laptop.png",
+    "source": "hand-prop-grid.png",
+    "cell": 12,
+    "sourceRect": {
+      "x": 24,
+      "y": 983,
+      "width": 279,
+      "height": 237
+    },
+    "width": 287,
+    "height": 245,
+    "padding": 4
+  },
+  "prop_book": {
+    "file": "parts/prop_book.png",
+    "source": "hand-prop-grid.png",
+    "cell": 13,
+    "sourceRect": {
+      "x": 313,
+      "y": 1005,
+      "width": 297,
+      "height": 192
+    },
+    "width": 305,
+    "height": 200,
+    "padding": 4
+  },
+  "prop_phone": {
+    "file": "parts/prop_phone.png",
+    "source": "hand-prop-grid.png",
+    "cell": 14,
+    "sourceRect": {
+      "x": 620,
+      "y": 970,
+      "width": 223,
+      "height": 255
+    },
+    "width": 231,
+    "height": 263,
+    "padding": 4
+  },
+  "prop_fork": {
+    "file": "parts/prop_fork.png",
+    "source": "hand-prop-grid.png",
+    "cell": 15,
+    "sourceRect": {
+      "x": 960,
+      "y": 964,
+      "width": 241,
+      "height": 252
+    },
+    "width": 249,
+    "height": 260,
+    "padding": 4
+  },
+  "prop_chair": {
+    "file": "parts/prop_chair.png",
+    "source": "surface-grid.png",
+    "cell": 0,
+    "sourceRect": {
+      "x": 68,
+      "y": 95,
+      "width": 247,
+      "height": 375
+    },
+    "width": 255,
+    "height": 383,
+    "padding": 4
+  },
+  "prop_table": {
+    "file": "parts/prop_table.png",
+    "source": "surface-grid.png",
+    "cell": 1,
+    "sourceRect": {
+      "x": 403,
+      "y": 166,
+      "width": 338,
+      "height": 304
+    },
+    "width": 346,
+    "height": 312,
+    "padding": 4
+  },
+  "prop_stairs": {
+    "file": "parts/prop_stairs.png",
+    "source": "surface-grid.png",
+    "cell": 2,
+    "sourceRect": {
+      "x": 805,
+      "y": 206,
+      "width": 340,
+      "height": 261
+    },
+    "width": 348,
+    "height": 269,
+    "padding": 4
+  },
+  "prop_ladder": {
+    "file": "parts/prop_ladder.png",
+    "source": "surface-grid.png",
+    "cell": 3,
+    "sourceRect": {
+      "x": 1236,
+      "y": 27,
+      "width": 211,
+      "height": 468
+    },
+    "width": 219,
+    "height": 476,
+    "padding": 4
+  },
+  "prop_door": {
+    "file": "parts/prop_door.png",
+    "source": "surface-grid.png",
+    "cell": 4,
+    "sourceRect": {
+      "x": 72,
+      "y": 518,
+      "width": 234,
+      "height": 470
+    },
+    "width": 242,
+    "height": 478,
+    "padding": 4
+  },
+  "prop_lever": {
+    "file": "parts/prop_lever.png",
+    "source": "surface-grid.png",
+    "cell": 5,
+    "sourceRect": {
+      "x": 468,
+      "y": 570,
+      "width": 225,
+      "height": 392
+    },
+    "width": 233,
+    "height": 400,
+    "padding": 4
+  },
+  "prop_button": {
+    "file": "parts/prop_button.png",
+    "source": "surface-grid.png",
+    "cell": 6,
+    "sourceRect": {
+      "x": 831,
+      "y": 686,
+      "width": 295,
+      "height": 231
+    },
+    "width": 303,
+    "height": 239,
+    "padding": 4
+  },
+  "prop_pencil": {
+    "file": "parts/prop_pencil.png",
+    "source": "surface-grid.png",
+    "cell": 7,
+    "sourceRect": {
+      "x": 1214,
+      "y": 609,
+      "width": 279,
+      "height": 300
+    },
+    "width": 287,
+    "height": 308,
+    "padding": 4
+  },
+  "hand_L_open": {
+    "file": "parts/hand_L_open.png",
+    "source": "hand-prop-grid.png",
+    "cell": 1,
+    "sourceRect": {
+      "x": 348,
+      "y": 27,
+      "width": 242,
+      "height": 277
+    },
+    "width": 250,
+    "height": 285,
+    "padding": 4,
+    "derivedFrom": "hand_R_open",
+    "operation": "bilaterally symmetric hand reflection"
+  },
+  "hand_L_fist": {
+    "file": "parts/hand_L_fist.png",
+    "source": "hand-prop-grid.png",
+    "cell": 2,
+    "sourceRect": {
+      "x": 685,
+      "y": 88,
+      "width": 173,
+      "height": 210
+    },
+    "width": 181,
+    "height": 218,
+    "padding": 4,
+    "derivedFrom": "hand_R_fist",
+    "operation": "bilaterally symmetric hand reflection"
+  },
+  "hand_L_point": {
+    "file": "parts/hand_L_point.png",
+    "source": "hand-prop-grid.png",
+    "cell": 3,
+    "sourceRect": {
+      "x": 979,
+      "y": 49,
+      "width": 228,
+      "height": 253
+    },
+    "width": 236,
+    "height": 261,
+    "padding": 4,
+    "derivedFrom": "hand_R_point",
+    "operation": "bilaterally symmetric hand reflection"
+  },
+  "hand_L_wave": {
+    "file": "parts/hand_L_wave.png",
+    "source": "hand-prop-grid.png",
+    "cell": 4,
+    "sourceRect": {
+      "x": 57,
+      "y": 342,
+      "width": 220,
+      "height": 268
+    },
+    "width": 228,
+    "height": 276,
+    "padding": 4,
+    "derivedFrom": "hand_R_wave",
+    "operation": "bilaterally symmetric hand reflection"
+  },
+  "hand_L_pinch": {
+    "file": "parts/hand_L_pinch.png",
+    "source": "hand-prop-grid.png",
+    "cell": 5,
+    "sourceRect": {
+      "x": 392,
+      "y": 391,
+      "width": 156,
+      "height": 218
+    },
+    "width": 164,
+    "height": 226,
+    "padding": 4,
+    "derivedFrom": "hand_R_pinch",
+    "operation": "bilaterally symmetric hand reflection"
+  },
+  "hand_L_grasp": {
+    "file": "parts/hand_L_grasp.png",
+    "source": "hand-prop-grid.png",
+    "cell": 6,
+    "sourceRect": {
+      "x": 684,
+      "y": 373,
+      "width": 176,
+      "height": 239
+    },
+    "width": 184,
+    "height": 247,
+    "padding": 4,
+    "derivedFrom": "hand_R_grasp",
+    "operation": "bilaterally symmetric hand reflection"
+  },
+  "hand_L_handle": {
+    "file": "parts/hand_L_handle.png",
+    "source": "hand-prop-grid.png",
+    "cell": 7,
+    "sourceRect": {
+      "x": 990,
+      "y": 406,
+      "width": 165,
+      "height": 208
+    },
+    "width": 173,
+    "height": 216,
+    "padding": 4,
+    "derivedFrom": "hand_R_handle",
+    "operation": "bilaterally symmetric hand reflection"
+  },
+  "hand_L_support": {
+    "file": "parts/hand_L_support.png",
+    "source": "hand-prop-grid.png",
+    "cell": 8,
+    "sourceRect": {
+      "x": 27,
+      "y": 759,
+      "width": 254,
+      "height": 111
+    },
+    "width": 262,
+    "height": 119,
+    "padding": 4,
+    "derivedFrom": "hand_R_support",
+    "operation": "bilaterally symmetric hand reflection"
+  },
+  "hand_L_carry": {
+    "file": "parts/hand_L_carry.png",
+    "source": "hand-prop-grid.png",
+    "cell": 9,
+    "sourceRect": {
+      "x": 371,
+      "y": 740,
+      "width": 211,
+      "height": 167
+    },
+    "width": 219,
+    "height": 175,
+    "padding": 4,
+    "derivedFrom": "hand_R_carry",
+    "operation": "bilaterally symmetric hand reflection"
+  }
+}

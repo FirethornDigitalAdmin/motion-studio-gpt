@@ -1,0 +1,26 @@
+{
+  "format": "louis-cutout-clip-v1",
+  "id": "walk",
+  "label": "Walk",
+  "duration": 1,
+  "loop": true,
+  "group": "Locomotion",
+  "speed": 150,
+  "stride": 150,
+  "fps": 24,
+  "view": "three-quarter-right",
+  "frameCount": 24,
+  "rootMotion": {
+    "mode": "in-place",
+    "pixelsPerSecond": 150,
+    "stridePixels": 150
+  },
+  "channels": [
+    "posture",
+    "locomotion",
+    "arm-swing"
+  ],
+  "events": [],
+  "native": "../native/walk.motion/project.json",
+  "generator": "../rig/runtime.mjs#sample"
+}

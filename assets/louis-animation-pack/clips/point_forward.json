@@ -1,0 +1,25 @@
+{
+  "format": "louis-cutout-clip-v1",
+  "id": "point_forward",
+  "label": "Point forward",
+  "duration": 2.5,
+  "loop": false,
+  "group": "Social",
+  "fps": 24,
+  "view": "three-quarter-right",
+  "frameCount": 60,
+  "rootMotion": {
+    "mode": "in-place",
+    "pixelsPerSecond": 0,
+    "stridePixels": 0
+  },
+  "channels": [
+    "posture",
+    "upper-body",
+    "hands-props",
+    "expression-cues"
+  ],
+  "events": [],
+  "native": "../native/point_forward.motion/project.json",
+  "generator": "../rig/runtime.mjs#sample"
+}

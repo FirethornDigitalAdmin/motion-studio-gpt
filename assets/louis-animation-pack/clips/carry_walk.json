@@ -1,0 +1,27 @@
+{
+  "format": "louis-cutout-clip-v1",
+  "id": "carry_walk",
+  "label": "Walk carrying cup",
+  "duration": 1,
+  "loop": true,
+  "group": "Interaction",
+  "speed": 150,
+  "stride": 150,
+  "fps": 24,
+  "view": "three-quarter-right",
+  "frameCount": 24,
+  "rootMotion": {
+    "mode": "in-place",
+    "pixelsPerSecond": 150,
+    "stridePixels": 150
+  },
+  "channels": [
+    "posture",
+    "upper-body",
+    "hands-props",
+    "expression-cues"
+  ],
+  "events": [],
+  "native": "../native/carry_walk.motion/project.json",
+  "generator": "../rig/runtime.mjs#sample"
+}

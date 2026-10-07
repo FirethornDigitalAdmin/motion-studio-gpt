@@ -1,0 +1,27 @@
+{
+  "format": "louis-cutout-clip-v1",
+  "id": "carry_run",
+  "label": "Run carrying box",
+  "duration": 0.6666666666666666,
+  "loop": true,
+  "group": "Interaction",
+  "speed": 330,
+  "stride": 220,
+  "fps": 24,
+  "view": "three-quarter-right",
+  "frameCount": 16,
+  "rootMotion": {
+    "mode": "in-place",
+    "pixelsPerSecond": 330,
+    "stridePixels": 220
+  },
+  "channels": [
+    "posture",
+    "upper-body",
+    "hands-props",
+    "expression-cues"
+  ],
+  "events": [],
+  "native": "../native/carry_run.motion/project.json",
+  "generator": "../rig/runtime.mjs#sample"
+}
